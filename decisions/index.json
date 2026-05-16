@@ -1,0 +1,114 @@
+{
+  "nodes": [
+    {
+      "type": "inputNode",
+      "content": {
+        "schema": ""
+      },
+      "id": "93c63ad0-a40c-4cd9-bb20-3b2c34cc207f",
+      "name": "request",
+      "position": {
+        "x": 40,
+        "y": 108
+      }
+    },
+    {
+      "type": "decisionTableNode",
+      "content": {
+        "hitPolicy": "first",
+        "rules": [],
+        "inputs": [
+          {
+            "id": "4b4f7577-03ef-488a-8097-f16f4bcca880",
+            "name": "Input"
+          }
+        ],
+        "outputs": [
+          {
+            "id": "a4e01922-e162-4df0-8aaa-78411c87f231",
+            "name": "Output",
+            "field": "output"
+          }
+        ],
+        "passThrough": true,
+        "inputField": null,
+        "outputPath": null,
+        "executionMode": "single"
+      },
+      "id": "2a8b8f1d-fa2c-400c-ac3e-6a48d61578d6",
+      "name": "decisionTable1",
+      "position": {
+        "x": 314,
+        "y": 40
+      }
+    },
+    {
+      "type": "decisionTableNode",
+      "content": {
+        "hitPolicy": "first",
+        "rules": [],
+        "inputs": [
+          {
+            "id": "b8793def-4382-4de8-bef9-00c961f3186c",
+            "name": "Input"
+          }
+        ],
+        "outputs": [
+          {
+            "id": "e9823154-f06e-4847-95ad-e77a4736a85f",
+            "name": "Output",
+            "field": "output"
+          }
+        ],
+        "passThrough": true,
+        "inputField": null,
+        "outputPath": null,
+        "executionMode": "single"
+      },
+      "id": "3772a812-7adb-4092-840c-63d123920be8",
+      "name": "decisionTable2",
+      "position": {
+        "x": 314,
+        "y": 176
+      }
+    },
+    {
+      "type": "outputNode",
+      "content": {
+        "schema": ""
+      },
+      "id": "8bdead10-f84a-4bb6-a720-ca7f836d4fd0",
+      "name": "response",
+      "position": {
+        "x": 588,
+        "y": 108
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "c561b324-0086-4a0c-8ceb-e287687a44d6",
+      "sourceId": "93c63ad0-a40c-4cd9-bb20-3b2c34cc207f",
+      "type": "edge",
+      "targetId": "2a8b8f1d-fa2c-400c-ac3e-6a48d61578d6"
+    },
+    {
+      "id": "d850992e-7bbc-4300-a0c4-274fe2f1e221",
+      "sourceId": "93c63ad0-a40c-4cd9-bb20-3b2c34cc207f",
+      "type": "edge",
+      "targetId": "3772a812-7adb-4092-840c-63d123920be8"
+    },
+    {
+      "id": "89928b9a-e6f1-4fbd-bf89-8ad188896b73",
+      "sourceId": "2a8b8f1d-fa2c-400c-ac3e-6a48d61578d6",
+      "type": "edge",
+      "targetId": "8bdead10-f84a-4bb6-a720-ca7f836d4fd0"
+    },
+    {
+      "id": "1af16b03-727f-4686-87e8-51e96a338ad4",
+      "sourceId": "3772a812-7adb-4092-840c-63d123920be8",
+      "type": "edge",
+      "targetId": "8bdead10-f84a-4bb6-a720-ca7f836d4fd0"
+    }
+  ]
+}
