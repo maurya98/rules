@@ -166,10 +166,22 @@
         "executionMode": "single"
       },
       "id": "535e33ef-9043-4b0a-a376-91ebb6494964",
-      "name": "recc",
+      "name": "Card Recommendation",
       "position": {
         "x": 314,
         "y": 40
+      }
+    },
+    {
+      "type": "functionNode",
+      "content": {
+        "source": "import zen from 'zen';\n\n/** @type {Handler} **/\nexport const handler = async (input) => {\n  return input;\n};\n"
+      },
+      "id": "39f4333f-722b-4b3f-b278-2e78e0ace0af",
+      "name": "function1",
+      "position": {
+        "x": 510,
+        "y": 170
       }
     }
   ],
@@ -179,6 +191,12 @@
       "sourceId": "node-input-001",
       "type": "edge",
       "targetId": "535e33ef-9043-4b0a-a376-91ebb6494964"
+    },
+    {
+      "id": "438bcbba-fae8-45dc-8603-d4b40d908572",
+      "sourceId": "535e33ef-9043-4b0a-a376-91ebb6494964",
+      "type": "edge",
+      "targetId": "39f4333f-722b-4b3f-b278-2e78e0ace0af"
     }
   ],
   "contentType": "application/vnd.gorules.decision"
