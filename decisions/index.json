@@ -1736,6 +1736,181 @@
           }
         ]
       }
+    },
+    {
+      "type": "decisionTableNode",
+      "content": {
+        "hitPolicy": "first",
+        "rules": [
+          {
+            "_id": "792e34b6-b005-44ff-b815-e956b4ba5b8d",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": ">= 10000",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": "",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": "",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Swiggy HDFC Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "250",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"High food spend\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"10% cashback on Swiggy & Zomato; 5% on other food\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "3a20f002-867f-4fb7-ad90-84a987bc9e61",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": "",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": ">= 15000",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": "",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Amazon Pay ICICI Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "275",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"High shopping spend\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"5% cashback on Amazon; 2% on partner merchants\"\n",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "fa7be90f-b8ce-4b6c-8acd-281e743afe62",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": "",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": ">= 15000",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": "",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Flipkart Axis Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "43",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"High shopping spend\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"5% cashback on Flipkart & Myntra; 4% preferred merch\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "2"
+          },
+          {
+            "_id": "806acb46-cce1-4923-a7ed-c70b06272f6b",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": "",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": "",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": ">= 3000",
+            "fa79292e-2777-4968-8452-1a108afe84c5": "",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"BPCL SBI Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "510",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"Significant fuel spend\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"4.25% value back at BPCL pumps; 1% surcharge waiver\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "6b29c19d-2b6c-4c2b-a0dc-236d2ab3e4ae",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": "",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": "",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": ">= 2000",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Air India SBI Platinum Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "502",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"Travel spend detected\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"Air miles on every spend; lounge access; insurance\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "69fba9d0-930f-4ea8-98d7-c54cba6619b5",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": ">= 8000",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": ">= 10000",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": "",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Axis Magnus Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "57",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"High food + shopping lifestyle\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"12 Edge pts/₹200; unlimited lounge access\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "638d66b9-03b1-4825-b1a4-7fa339b4d616",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": ">= 8000",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": ">= 10000",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": "",
+            "fa79292e-2777-4968-8452-1a108afe84c5": ">= 1500",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"HDFC Infinia Credit Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "214",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"High overall lifestyle spend\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"5X rewards on travel & dining; unlimited lounge\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "1"
+          },
+          {
+            "_id": "1713abda-1f8e-4295-9a4f-b71a92232a3e",
+            "c29ebedc-fd54-45f3-87a3-6f0622f1e792": "",
+            "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9": "",
+            "3db8f06b-1a57-489a-9625-00f3738944a4": ">= 3000",
+            "fa79292e-2777-4968-8452-1a108afe84c5": ">= 2000",
+            "ef73249c-c773-4e2a-9e7c-d4b91f773a29": "\"Axis Indian Oil Card\"",
+            "378497cb-a1ae-4463-989e-49453fb5736b": "49",
+            "80c2222b-4e4b-492b-910f-effea96610c6": "\"Fuel + travel combo\"",
+            "27efa0b0-1723-4449-87c5-ba74ed3bedcc": "\"1 EDGE Mile per Rs. 150 spent on other categories; Up to 8 visits to select domestic airport lounges in India\"",
+            "c1faf41b-1299-495c-b0d1-d44b428c423f": "2"
+          }
+        ],
+        "inputs": [
+          {
+            "id": "c29ebedc-fd54-45f3-87a3-6f0622f1e792",
+            "name": "food",
+            "field": "food"
+          },
+          {
+            "id": "2d4e0dcc-ccdc-4871-a6b8-1f7328ca96e9",
+            "name": "shopping",
+            "field": "shopping"
+          },
+          {
+            "id": "3db8f06b-1a57-489a-9625-00f3738944a4",
+            "name": "fuel",
+            "field": "fuel"
+          },
+          {
+            "id": "fa79292e-2777-4968-8452-1a108afe84c5",
+            "name": "travel",
+            "field": "travel"
+          }
+        ],
+        "outputs": [
+          {
+            "id": "ef73249c-c773-4e2a-9e7c-d4b91f773a29",
+            "name": "card_name",
+            "field": "card_name"
+          },
+          {
+            "id": "378497cb-a1ae-4463-989e-49453fb5736b",
+            "name": "card_id",
+            "field": "card_id"
+          },
+          {
+            "id": "80c2222b-4e4b-492b-910f-effea96610c6",
+            "name": "reason",
+            "field": "reason"
+          },
+          {
+            "id": "27efa0b0-1723-4449-87c5-ba74ed3bedcc",
+            "name": "benefit",
+            "field": "benefit"
+          },
+          {
+            "id": "c1faf41b-1299-495c-b0d1-d44b428c423f",
+            "name": "priority",
+            "field": "priority"
+          }
+        ],
+        "passThrough": true,
+        "inputField": null,
+        "outputPath": null,
+        "executionMode": "single"
+      },
+      "id": "535e33ef-9043-4b0a-a376-91ebb6494964",
+      "name": "recc",
+      "position": {
+        "x": 325,
+        "y": 195
+      }
+    },
+    {
+      "type": "functionNode",
+      "content": {
+        "source": "import zen from 'zen';\n\n/** @type {Handler} **/\nexport const handler = async (input) => {\n  return input;\n};\n"
+      },
+      "id": "778f66d2-3564-4403-b468-a0043be3ecfa",
+      "name": "function1",
+      "position": {
+        "x": 575,
+        "y": 110
+      }
     }
   ],
   "edges": [
@@ -1743,6 +1918,24 @@
       "id": "edge-001",
       "sourceId": "node-input-001",
       "targetId": "node-table-001"
+    },
+    {
+      "id": "ab47eaaf-cca0-4aba-9fba-7524fc3c9155",
+      "sourceId": "node-input-001",
+      "type": "edge",
+      "targetId": "535e33ef-9043-4b0a-a376-91ebb6494964"
+    },
+    {
+      "id": "7ff7029b-93f7-450f-8774-760ffa8bcb5a",
+      "sourceId": "node-table-001",
+      "type": "edge",
+      "targetId": "778f66d2-3564-4403-b468-a0043be3ecfa"
+    },
+    {
+      "id": "2acf4739-0187-4807-b159-67949b1af7ea",
+      "sourceId": "535e33ef-9043-4b0a-a376-91ebb6494964",
+      "type": "edge",
+      "targetId": "778f66d2-3564-4403-b468-a0043be3ecfa"
     }
   ],
   "contentType": "application/vnd.gorules.decision"
